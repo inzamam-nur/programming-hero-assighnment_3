@@ -1,5 +1,48 @@
+.carousel-caption{
+  padding-bottom: 12%;
+ }
+ .carousel-caption h1{
+   font-size: 60px;
+  }
+  .carousel-caption p{
+   font-size: 40px;
+  }
+ .button_white{
+   background-color: white;
+   border: none;
+   border-radius: 10px;
+   padding: 16px 20px;
+ }
+
+ @media only screen and (max-width: 840px )
+ {
+   .carousel-caption{
+     padding-bottom: 8%;
+    }
+    .carousel-caption h1{
+      font-size: 30px;
+     }
+     .carousel-caption p{
+      font-size: 20px;
+     }
+
+ }
 @media only screen and (max-width: 570px) {
     .image_class {
-     width: 335px;
+     width: 100%;
     }
+    .carousel-caption{
+      padding-bottom: 0%;
+     }
+     .carousel-caption h1{
+      font-size: 18px;
+     }
+     .carousel-caption p{
+      font-size: 12px;
+     }
+   
+     
   }
+
+
+  
